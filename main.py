@@ -102,7 +102,7 @@ async def post_screen_activity(payload: dict = Body(...)):
             "entity": {
                 "ParentId": {
                     "Id": contact_id,
-                    "EntityName": "Contacts"
+                    "EntityName": "Contact"
                 },
                 "VerbId": {
                     "Id": "2d4edbf9-a7a2-4174-ae53-a8f900bb0381",
